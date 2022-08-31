@@ -11,16 +11,20 @@
 
 <body>
     <div id="container">
-        <h1>TV Show Search</h1>
+        <header>
+            <h1>TV Show Search</h1>
+
+
+            <form id="searchForm">
+                <input type="text" name="" id="query" placeholder="search" name="query">
+                <button>Search</button>
+            </form>
+        </header>
+
+
+        <section id="shows">
+        </section>
     </div>
-
-    <form id="searchForm">
-        <input type="text" name="" id="query" placeholder="search" name="query">
-        <button>Search</button>
-    </form>
-
-    <section id="shows">
-    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
