@@ -1,0 +1,22 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+    padding: 10px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+#shows {
+    margin-top: 10px;
+}
+
+.show-section {
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
