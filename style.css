@@ -14,6 +14,8 @@ header {
 
 #shows {
     margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .show-section {
@@ -22,4 +24,8 @@ header {
     display: inline-block;
     margin: 10px;
     text-align: center;
+}
+
+.show-section p {
+    height: 50px;
 }
